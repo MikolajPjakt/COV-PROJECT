@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "wykrywanie gatunkow ptaków"
+version = "1.0"
+description = "Rozpoznawanie i klasyfikacja gatunków ptaków na podstawie zdjęć"
+authors = ["Mikolaj <s24266@pjwstk.edu.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
